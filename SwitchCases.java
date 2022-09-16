@@ -16,12 +16,12 @@ public class SwitchCases {
                 System.out.println("keeps dr away-----");
                 break;
             default:
-                System.out.println("Zop ja jaun");
+                System.out.println("wrong input");
         }
 
        // switch (fruit){
-       //     case "Mango" -> System.out.println("Nahi aavdat tr");
-        //    case "apple" -> System.out.println("Nahi aavdat tr");
+       //     case "Mango" -> System.out.println("nothing");
+        //    case "apple" -> System.out.println("Nothing");
         //     case "Mango" -> System.out.println("Nahi aavdat tr");
         //     }
 
