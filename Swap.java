@@ -1,19 +1,16 @@
-package Arrayprograms;
-
-import java.util.Arrays;
+package Methods;
 
 public class Swap {
     public static void main(String[] args) {
-        int[] arr = {1,2,3,5};
-        swap(arr,0,3);
 
-        System.out.println(Arrays.toString(arr));
+        swap(12,35);
     }
 
-     static void swap(int[] arr,int i1,int i2){
-        int temp = arr[i1];
-        arr[i1] = arr[i2];
-        arr[i2] = temp;
-
+    static void swap(int a, int b){
+        int temp = a;
+        a = b;
+        b = temp;
+        System.out.println(a);
+        System.out.println(b);
     }
 }
